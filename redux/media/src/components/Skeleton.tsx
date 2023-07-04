@@ -5,7 +5,7 @@ const Skeleton = ({
   className,
 }: {
   times: number;
-  className: string;
+  className?: string;
 }) => {
   const outerClassNames = classNames(
     "relative",
